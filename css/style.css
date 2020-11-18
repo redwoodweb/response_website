@@ -542,13 +542,13 @@ section .row .column .inner img{
   #header{
     position: absolute;
   }
+}
 
-  @media screen and ( max-width: 380px ) {
-    section#ourclients .row .column{
-      flex: 100%;
-    }
-    section#mytool .row .column{
-      flex: 100%;
-    }
+@media screen and ( max-width: 380px ) {
+  section#ourclients .row .column{
+    flex: 100%;
+  }
+  section#mytool .row .column{
+    flex: 100%;
   }
 }
